@@ -15,9 +15,9 @@ import torch
 import torch.nn as nn
 from torchvision import transforms
 
-from loguru import logger
+from logging import logger
 from folder_paths import models_dir
-from utils import check_download_model
+from birefnet_utils import check_download_model
 
 config = Config()
 
